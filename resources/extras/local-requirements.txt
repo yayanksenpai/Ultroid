@@ -211,8 +211,6 @@ webencodings==0.5.1
 websocket-client==1.1.0
 wikipedia==1.4.0
 yarl==1.6.3
-youtube-dl==2021.6.6
-youtube-search-python==1.4.5
 zipp==1.0.0
 zope.interface==4.7.1
 tabulate

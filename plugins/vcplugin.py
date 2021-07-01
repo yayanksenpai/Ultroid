@@ -28,8 +28,6 @@
     Remove access of Voice Chat Bot.
 
 • **Voice Chat - Bot Commands**
-   `/play ytsearch : song-name`
-   `/play youtube link`
    `/current`
    `/skip`
    `/exitVc`
