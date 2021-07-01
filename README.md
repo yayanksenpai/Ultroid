@@ -36,7 +36,7 @@
 ## Deploy to Heroku
 Get the [Necessary Variables](#Necessary-Variables) and then click the button below!  
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://telegra.ph/Deploy-on-Heroku-Temporary-07-01)
 
 ## Deploy Locally
 - [Traditional Method](#local-deploy---traditional-method)
