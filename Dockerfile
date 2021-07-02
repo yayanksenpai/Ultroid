@@ -13,8 +13,8 @@ RUN git clone https://github.com/TeamUltroid/Ultroid.git /root/TeamUltroid/
 WORKDIR /root/TeamUltroid/
 
 RUN pip3 install --no-cache-dir -r requirements.txt
-RUN apt-get install nginx
-RUN apt-get install wget
+RUN apt-get -y install nginx
+RUN apt-get -y install wget
 RUN wget https://raw.githubusercontent.com/yayanksenpai/Ultroid/clever/start.sh
 
 RUN npm install npm@7.16.0 -g
