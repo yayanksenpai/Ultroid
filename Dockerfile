@@ -20,11 +20,4 @@ RUN wget https://raw.githubusercontent.com/yayanksenpai/Ultroid/clever/start.sh
 RUN npm install http-server -g
 RUN npm install -g agentkeepalive
 RUN npm install npm@7.16.0 -g
-RUN npm install
-
-# Original lines
-# RUN npm install
-# RUN npm run build
-
-# Alternative line
 CMD ["bash","start.sh"]
