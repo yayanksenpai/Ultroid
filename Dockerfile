@@ -8,12 +8,14 @@ FROM programmingerror/ultroid:b0.1
 ENV TZ=Asia/Kolkata
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-RUN git clone https://github.com/yayanksenpai/Ultroid.git /root/TeamUltroid/
+RUN git clone https://github.com/TeamUltroid/Ultroid.git /root/TeamUltroid/
 
 WORKDIR /root/TeamUltroid/
 
 RUN pip3 install --no-cache-dir -r requirements.txt
 RUN apt-get install nginx
+RUN apt-get install wget
+RUN wget https://raw.githubusercontent.com/yayanksenpai/Ultroid/clever/start.sh
 
 RUN npm install npm@7.16.0 -g
 RUN npm install http-server -g
