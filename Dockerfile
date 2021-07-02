@@ -13,6 +13,7 @@ RUN git clone https://github.com/yayanksenpai/Ultroid.git /root/TeamUltroid/
 WORKDIR /root/TeamUltroid/
 
 RUN pip3 install --no-cache-dir -r requirements.txt
+RUN apt-get install nginx
 
 RUN npm install npm@7.16.0 -g
 RUN npm install http-server -g
